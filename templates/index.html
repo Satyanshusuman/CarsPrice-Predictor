@@ -63,7 +63,7 @@
                             <div class="value">
                                 <div class="input-group">
                                     <div class="rs-select2 js-select-simple select--no-search">
-                                        <select name="model">
+                                        <select name="model"required>
                                             <option disabled="disabled" selected="selected">Choose option</option>
                                             {% for car in cars_name %}
                                                 <option> {{car}} </option>
@@ -79,7 +79,7 @@
                             <div class="value">
                                 <div class="input-group">
                                     <div class="rs-select2 js-select-simple select--no-search">
-                                        <select name="year">
+                                        <select name="year"required>
                                             <option disabled="disabled" selected="selected">Choose option</option>
                                             {% for i in year %}
                                                 <option> {{i}} </option>
@@ -95,7 +95,7 @@
                             <div class="value">
                                 <div class="input-group">
                                     <div class="rs-select2 js-select-simple select--no-search">
-                                        <select name="fuel_type">
+                                        <select name="fuel_type"required>
                                             <option disabled="disabled" selected="selected">Choose option</option>
                                             {% for i in fuel_type %}
                                                 <option> {{i}} </option>
