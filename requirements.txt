@@ -2,3 +2,5 @@ flask
 pandas
 pickle5
 Gunicorn
+scikit-learn>=0.18
+scipy>=0.15.1
