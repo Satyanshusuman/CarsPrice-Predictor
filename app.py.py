@@ -4,8 +4,8 @@ import pandas as pd
 import pickle
 
 app=Flask(__name__)
-car=pd.read_csv("Machine Lerning\cars24\cars24_clean.csv")
-model= pickle.load(open("Machine Lerning\cars24\Cars24 linear model.pkl","rb"))
+car=pd.read_csv("cars24_clean.csv")
+model= pickle.load(open("Cars24 linear model.pkl","rb"))
 
 
 
